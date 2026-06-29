@@ -1,0 +1,41 @@
+# ──────────────── .NET (backend) ────────────────
+bin/
+obj/
+*.user
+.vs/
+
+# ──────────────── Flutter / Dart (frontend) ────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+.idea/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/app/key.properties
+*.keystore
+*.jks
+
+# ──────────────── Secrets / local config ────────────────
+# Real DB password + JWT key live here; keep it off GitHub.
+**/appsettings.Development.json
+
+# ──────────────── Other folders in this directory (NOT part of this project) ────────────────
+/web/
+/mobile/
+/kaizen-onboarding-main/
+/kaizen-onboarding-main.zip
+/kzutil.zip
+/pw.txt
+/current workflow.txt
+/SQL Server Management Studio 19.lnk
+
+# ──────────────── OS / misc ────────────────
+.DS_Store
+Thumbs.db
+*.log

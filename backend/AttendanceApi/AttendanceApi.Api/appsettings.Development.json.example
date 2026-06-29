@@ -1,0 +1,18 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "Default": "Host=localhost;Port=5432;Database=AttendanceDb;Username=postgres;Password=YOUR_DB_PASSWORD"
+  },
+  "Jwt": {
+    "Key": "replace-with-a-long-random-secret-at-least-32-characters",
+    "Issuer": "AttendanceApi",
+    "Audience": "AttendanceApp",
+    "AccessTokenExpiryMinutes": 60,
+    "RefreshTokenExpiryDays": 7
+  }
+}
